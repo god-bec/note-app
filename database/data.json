@@ -1,35 +1,22 @@
 {
   "noteA": [
     {
-      "id": 1,
-      "title": "Things i want to learn",
-      "content": "lorem ipsum genetirum de sactro deus deo la fratrat de lauper dei pedro sunt te ni tera deo la gra stunte podium la sunchi rat go deiego"
+      "title": "things to do",
+      "content": "1. work\n2. work\n3. work\n4. slay",
+      "date": "20:52  PM",
+      "id": 16
     },
     {
-      "id": 2,
-      "title": "next week plan",
-      "content": "lorem ipsum genetirum de sactro deus deo la fratrat de lauper dei pedro sunt te ni tera deo la gra stunte podium la sunchi rat go deiego"
+      "title": "routine",
+      "content": "1. work\n1. pray\n1. eat",
+      "date": "20:51  PM",
+      "id": 17
     },
     {
-      "id": 3,
-      "title": "about church",
-      "content": "lorem ipsum genetirum de sactro deus deo la fratrat de lauper dei pedro sunt te ni tera deo la gra stunte podium la sunchi rat go deiego"
-    },
-    {
-      "id": 4,
-      "title": "lorem ipsum sue de prole da trueliterius",
-      "content": "lorem ipsum genetirum de sactro deus deo la fratrat de lauper dei pedro sunt te ni tera deo la gra stunte podium la sunchi rat go deiego"
-    },
-    {
-      "id": 5,
-      "title": "lorem ipsum sue de prole da trueliterius",
-      "content": "lorem ipsum genetirum de sactro deus deo la fratrat de lauper dei pedro sunt te ni tera deo la gra stunte podium la sunchi rat go deiego"
-    },
-    {
-      "id": 6,
-      "title": "lorem ipsum sue de prole da trueliterius",
-      "content": "lorem ipsum genetirum de sactro deus deo la fratrat de lauper dei pedro sunt te ni tera deo la gra stunte podium la sunchi rat go deiego"
+      "title": "style",
+      "content": "1. slay\n2. slay\n3. slay  ",
+      "date": "20:51  PM",
+      "id": 18
     }
-    
   ]
 }
