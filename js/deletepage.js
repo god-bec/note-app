@@ -39,9 +39,8 @@ const date = new Date();
 const stringDate =date.toDateString();
 let minutes =date.getMinutes();
 if(minutes < 10){
-    minutes ='0'+minutes
+    minutes ='0'+minutes;
 }else{minutes};
-
 const currentTime = `${date.getHours()}:${minutes}`;
 let dateSuffix = ' ';
 if(date.getHours() >= 12){
