@@ -26,7 +26,7 @@ function fetchData(searchTerm) {
             <a href="deletePage.html?id=${el.id}" class="js-link"><form class="note-container">
             <input name="title" placeholder="${el.title}" class="title" disabled/>
             <textarea class="text" disabled>${el.content}</textarea>
-            <h5>${el.date}<h5>
+            <h4 class="js-h4">${el.date}<h4>
             </form>
             </a>`
            

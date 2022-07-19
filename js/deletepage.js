@@ -37,7 +37,12 @@ save_btn.addEventListener('click', function(){
     const form = document.querySelector('.delete_container');
 const date = new Date();
 const stringDate =date.toDateString();
-const currentTime = `${date.getHours()}:${date.getMinutes()}`;
+let minutes =date.getMinutes();
+if(minutes < 10){
+    minutes ='0'+minutes
+}else{minutes};
+
+const currentTime = `${date.getHours()}:${minutes}`;
 let dateSuffix = ' ';
 if(date.getHours() >= 12){
     dateSuffix +=`PM`;
@@ -45,7 +50,7 @@ if(date.getHours() >= 12){
     const notes = {
          title:form.title.value,
          content:form.content.value,
-         date: `${currentTime} ${dateSuffix}`
+         date: `${currentTime} ${dateSuffix} ${stringDate}`
     }
        fetch('http://localhost:3000/noteA/'+ id,{
        method:'PUT',
