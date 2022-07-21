@@ -5,7 +5,11 @@ const conta = document.querySelector('.container')
 const plus_btn = document.querySelector('.plus')
 const searchForm = document.querySelector('.search-form');
 
-
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+app.listen(port);
 
 //displaying element gotten from json server array,so it can be edited by the user in the text area in index page
 function fetchData(searchTerm) {
