@@ -19,5 +19,9 @@
   "homepage": "https://github.com/god-bec/god_bec-NotePad#readme",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemo": "^1.0.0",
+    "nodemon": "^2.0.19"
   }
 }
