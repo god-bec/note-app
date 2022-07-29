@@ -13,13 +13,13 @@
     },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/god-bec/god_bec-NotePad.git"
+    "url": "git+https://github.com/god-bec/note-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/god-bec/god_bec-NotePad/issues"
+    "url": "https://github.com/god-bec/note-app.git/issues"
   },
   "homepage": "https://github.com/god-bec/god_bec-NotePad#readme",
   "dependencies": {
