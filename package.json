@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/god-bec/note-app.git/issues"
   },
-  "homepage": "https://github.com/god-bec/god_bec-NotePad#readme",
+  "homepage": "https://github.com/god-bec/note-app.git#readme",
   "dependencies": {
     "express": "^4.18.1",
     "serve": "^14.0.1"
