@@ -9,7 +9,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
-    },
+  },
+  "engines": {
+    "node": "v14.15.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/god-bec/note-app.git"
