@@ -1,0 +1,170 @@
+*{
+    margin:0px;
+    padding:0px;
+   box-sizing: border-box;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.body{
+    background-color: black;
+    color:white;
+    /* display:grid; */
+    /* grid-template-areas: "header"
+                          "main"
+                          "footer";
+                          gap: 20px; */
+                          
+}
+/* .header{
+    grid-area: header;
+}
+.main{
+    grid-area: main;
+}
+.footer{
+    grid-area: header;
+} */
+
+.container_editpage{
+    width: 100%;
+}
+
+.header{
+    text-align: center;
+    height: auto;
+    color:white;
+    padding: 10px;
+}
+.search-form{
+    /* margin-right: 75%; */
+    padding: 20px 0px 0px 0px;
+}
+.search-form input{
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: black;
+    color: azure;
+}
+.container{
+    padding: 10px 40px;
+   
+}
+.note-container{
+    border: 1px solid gray;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.plus{
+    font-size: 30px;
+    width:60px;
+    height: 60px;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: goldenrod;
+    margin: auto;
+    display:block;
+    border: solid black;
+    
+    
+}
+.plus a{
+    text-decoration: dashed;
+    color:black;
+}
+
+.container ul{
+    background-color: rgb(44, 43, 43);
+    padding:10px 0px 10px 30px;
+    color:lightgray;
+    border-radius: 10px;
+}
+.container ul li{
+    line-height: 40px;
+}
+/* EDIT page*/
+.edit_container{
+    width:100%;
+    height:auto;
+    padding: 5px 40px;
+    
+}
+/* all page*/
+.delete_container{
+    width:100%;
+    height:auto;
+    padding: 5px 40px;
+}
+ .text-area{
+    width:100%;
+    height:350px;
+    background-color: rgb(26, 25, 25);
+    color:white;
+    border-radius: 10px;
+    
+
+}
+
+.text{
+    width:100%;
+    height:auto;
+    background-color: rgb(26, 25, 25);
+    color:white;
+    border-radius: 10px;
+    padding: 5px 0px;
+    height: 100px;
+}
+.save_btn{
+    display:block;
+    padding: 5px;
+    border-radius: 10px;
+    cursor:pointer;
+    margin:auto;
+  
+}
+.save_btn2{
+    display:none;
+    padding: 5px;
+    border-radius: 10px;
+    cursor:pointer;
+    margin:auto;
+  
+}
+ .delete_btn{
+    display:block;
+    padding: 5px;
+    border-radius: 10px;
+    cursor:pointer;
+    margin:auto;
+  
+}
+/* add class for JS*/
+
+.title{
+    width: 100%;
+    background-color: rgb(71, 71, 71);
+    height: 20px;
+    border: reset;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 0px 0px 0px 10px;
+    color: rgb(221, 217, 217);
+}
+  .title::placeholder{
+    color:goldenrod;
+}
+
+a.js-link{
+ text-decoration: none;
+ color: gray;
+}
+.js-h4{
+    font-size: 10px;
+}
+
+
+
+
+
+
+
